@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.19" GSCVersion="0.10.4" id="id973021">
+  <layers>
+    <layer id="id391565">
+      <actors>
+        <actor id="id728441" prototype="id504280">
+          <attributes>
+            <point id="position">
+              <real id="x">241</real>
+              <real id="y">5</real>
+            </point>
+            <size id="size">
+              <real id="width">11</real>
+              <real id="height">481</real>
+            </size>
+            <angle id="rotation">-90</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id131628" prototype="id334752">
+          <attributes>
+            <point id="position">
+              <real id="x">9</real>
+              <real id="y">159</real>
+            </point>
+            <size id="size">
+              <real id="width">31</real>
+              <real id="height">322</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id701106" prototype="id655511">
+          <attributes>
+            <point id="position">
+              <real id="x">252.5</real>
+              <real id="y">315.5</real>
+            </point>
+            <size id="size">
+              <real id="width">11</real>
+              <real id="height">455</real>
+            </size>
+            <angle id="rotation">90</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id976415" prototype="id760429">
+          <attributes>
+            <point id="position">
+              <real id="x">466</real>
+              <real id="y">156.5</real>
+            </point>
+            <size id="size">
+              <real id="width">30</real>
+              <real id="height">307</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id180403" prototype="id169239">
+          <attributes>
+            <point id="position">
+              <real id="x">241</real>
+              <real id="y">160.5</real>
+            </point>
+            <size id="size">
+              <real id="width">483</real>
+              <real id="height">325</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id584690" prototype="id843205">
+          <attributes>
+            <point id="position">
+              <real id="x">79</real>
+              <real id="y">152</real>
+            </point>
+            <size id="size">
+              <real id="width">55</real>
+              <real id="height">57</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id380253" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id965728" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id992484</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id909845" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id973021</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id632499" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id943618" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">down</text>
+                      <text id="keyString">right</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id980452" class="MoveBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Move</text>
+                    <text id="bundleName">Move.behavior</text>
+                    <angle id="direction">0</angle>
+                    <index id="space">0</index>
+                    <index id="moveType">0</index>
+                    <real id="speed">200</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id931006" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id222642" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">down</text>
+                      <text id="keyString">down</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id456345" class="MoveBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Move</text>
+                    <text id="bundleName">Move.behavior</text>
+                    <angle id="direction">270</angle>
+                    <index id="space">0</index>
+                    <index id="moveType">0</index>
+                    <real id="speed">300</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id119764" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id643900" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id900953</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id131051" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id973021</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id957782" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id899609" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id513206</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id561942" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id973021</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id399224" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id636222" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">down</text>
+                      <text id="keyString">up</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id996604" class="MoveBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Move</text>
+                    <text id="bundleName">Move.behavior</text>
+                    <angle id="direction">90</angle>
+                    <index id="space">0</index>
+                    <index id="moveType">0</index>
+                    <real id="speed">350</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id769939" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id330332" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id842941</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id531908" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id446490</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id652658" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id483799" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id326984</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id273066" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id973021</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id325610" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id352606" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id334752</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id756042" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id973021</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id349200" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id709495" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id655511</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id303438" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id973021</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id349849" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id900975" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id760429</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id797511" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id973021</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id240971" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id665224" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="collision">
+                    <attributes>
+                      <text id="prototypeKey">id504280</text>
+                      <text id="actorTag" />
+                      <real id="mode">0</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id923037" class="ChangeSceneAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Scene</text>
+                    <text id="bundleName">ChangeScene.behavior</text>
+                    <text id="sceneKey">id973021</text>
+                    <boolean id="enableAdvertisement">false</boolean>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id717025" prototype="id842941">
+          <attributes>
+            <point id="position">
+              <real id="x">431.18496486597</real>
+              <real id="y">159.83423801911</real>
+            </point>
+            <size id="size">
+              <real id="width">110.071310354162</real>
+              <real id="height">75.0074730785093</real>
+            </size>
+            <angle id="rotation">-90.3493601795028</angle>
+          </attributes>
+          <behaviors />
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id593680" prototype="id992484">
+          <attributes>
+            <point id="position">
+              <real id="x">320</real>
+              <real id="y">155</real>
+            </point>
+            <size id="size">
+              <real id="width">111</real>
+              <real id="height">72</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id905243" prototype="id900953">
+          <attributes>
+            <point id="position">
+              <real id="x">322</real>
+              <real id="y">61</real>
+            </point>
+            <size id="size">
+              <real id="width">84</real>
+              <real id="height">93</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id675253" prototype="id513206">
+          <attributes>
+            <point id="position">
+              <real id="x">342</real>
+              <real id="y">258</real>
+            </point>
+            <size id="size">
+              <real id="width">73</real>
+              <real id="height">87</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id715927" prototype="id326984">
+          <attributes>
+            <point id="position">
+              <real id="x">436</real>
+              <real id="y">160.5</real>
+            </point>
+            <size id="size">
+              <real id="width">59</real>
+              <real id="height">88</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id320009" class="TimerBehavior" enabled="true">
+              <attributes>
+                <text id="name">Timer</text>
+                <text id="bundleName">Timer.behavior</text>
+                <index id="timerType">1</index>
+                <real id="interval">1.8</real>
+                <boolean id="runToCompletion">false</boolean>
+              </attributes>
+              <behaviors>
+                <behavior id="id242198" class="MoveBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Move</text>
+                    <text id="bundleName">Move.behavior</text>
+                    <angle id="direction">182.6026</angle>
+                    <index id="space">0</index>
+                    <index id="moveType">0</index>
+                    <real id="speed">350</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Background</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">Ibarbo</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">480</real>
+      <real id="height">320</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">0</real>
+      <real id="green">0</real>
+      <real id="blue">0</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">480</real>
+        <real id="height">320</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">400</real>
+        <real id="height">260</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>
